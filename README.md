@@ -5,6 +5,7 @@ The oringinal dancepad I got from Temu has a gamecube interface, and I tried cou
 ![image](https://github.com/kkguo/Dancepad/assets/485503/8f1d9966-4519-4039-a223-36a8cb674579)
 
 I Used a arduino pro mini for reading buttons and send data via I2C to an attiny85 board for USB Joystick function.
+Not using shift-reg for scanning buttons because I don't have the part and attiny85 really doesn't have many IO can be used.
 
 ## Steps:
 1. solder all the button pin to the pro mini (pin 2-11)
